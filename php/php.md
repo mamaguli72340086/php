@@ -9,3 +9,13 @@ Para mejorar la experiencia de desarrollo en VS Code, instala las siguientes ext
 5. **Andromeda** ([Enlace](https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda)) Tema instalado
 6. **Auto Rename Tag** ([Enlace](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)) Cambie automáticamente el nombre de la etiqueta HTML/XML emparejada
 7. **Docker** ([Enlace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)) La extensión de Docker facilita la compilación, administración e implementación de aplicaciones en contenedores.
+
+### Configuración de VS Code (settings.json)
+
+```json
+"workbench.colorTheme": "Andromeda",
+"workbench.iconTheme": "material-icon-theme",
+"editor.fontFamily": "Jetbrains Mono, Fira Code",
+"editor.fontSize": 15,
+"editor.fontLigatures": true
+
