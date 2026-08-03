@@ -1,1 +1,2 @@
-7.StaticReturnType.php
+<?php
+  phpinfo();
