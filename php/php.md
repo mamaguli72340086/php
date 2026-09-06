@@ -6,7 +6,7 @@ Para obtener una mejor experiencia de desarrollo en **Visual Studio Code**, inst
 
 | Extensión | Descripción |
 |-----------|-------------|
-| **PHP Intelephense** | Proporciona autocompletado inteligente, navegación entre clases y funciones, detección de errores y análisis estático del código. |
+| **PHP Intelephense** | PHP code intelligence for Visual Studio Code. Proporciona autocompletado inteligente, navegación entre clases y funciones, detección de errores y análisis estático del código. |
 | **PHP Debug** | Permite depurar aplicaciones PHP utilizando **Xdebug**, facilitando la ejecución paso a paso y el análisis de variables. |
 | **PHP Namespace Resolver** | Importa automáticamente clases, organiza los `use` y resuelve espacios de nombres de forma rápida. |
 | **Trailing Spaces** | Resalta y elimina automáticamente los espacios en blanco innecesarios al final de las líneas. |
@@ -296,3 +296,28 @@ mi_proyecto_php/
 - Organiza tus proyectos utilizando carpetas para CSS, JavaScript, imágenes y archivos reutilizables.
 - Si tu proyecto requiere una base de datos, puedes instalar **MariaDB** o **MySQL** por separado, sin necesidad de utilizar XAMPP.
 - Para proyectos más avanzados, considera utilizar **Composer** para gestionar dependencias y **Docker** para crear entornos de desarrollo reproducibles.
+
+# Instalacion de DBeaver
+DBeaver es una herramienta de administración de bases de datos de código abierto que permite conectarse a MySQL y otros motores de bases de datos.
+
+## Descarga DBeaver
+Descarga la última versión de DBeaver desde el sitio oficial:
+
+<https://dbeaver.io/download/>
+
+Descomprime el archivo descargado.
+
+## Cómo conectar DBeaver a MariaDB
+
+1. Abre DBeaver y selecciona nueva conexion en el menú principal.
+2. Selecciona MariaDB como tipo de base de datos.
+3. Configura la conexión con los siguientes valores:
+   Host: localhost (o 127.0.0.1)
+   Port: 3306
+   Database: curso
+   Username: rootls
+   Password: root
+4. Haz clic en Siguiente y espera a que la conexión sea probada.
+5. Si se solicita, instala el driver de MariaDB.
+6. Finalmente, haz clic en Finalizar.
+
